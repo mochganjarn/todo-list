@@ -1,0 +1,24 @@
+.content{
+    @apply grow flex flex-col justify-center bg-gray-100 
+    p-8 max-h-full overflow-hidden;
+}
+
+.content h1{
+    color:var(--action-color);
+    @apply text-4xl mx-auto mb-4 font-bold;
+}
+
+.todoItem{
+    @apply flex flex-row rounded-xl text-white;
+    background-color:var(--action-color);
+}
+
+.loadMore{
+    color:var(--action-color);
+    @apply flex justify-center;
+
+}
+
+.loadMore:hover{
+    cursor:pointer
+}

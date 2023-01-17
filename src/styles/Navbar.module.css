@@ -1,0 +1,7 @@
+.container{
+    @apply flex items-center w-full bg-white h-20 px-10 py-2 drop-shadow-md;
+}
+
+.container img{
+    @apply h-full;
+}

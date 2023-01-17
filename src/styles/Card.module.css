@@ -1,0 +1,7 @@
+.card {
+  @apply flex flex-col p-5 bg-white rounded-xl drop-shadow-md overflow-auto;
+}
+
+.card div{
+    @apply mx-5 my-1;
+}

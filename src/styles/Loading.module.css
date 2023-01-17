@@ -1,0 +1,7 @@
+.loadingBody{
+    @apply flex justify-center backdrop-blur-md w-full h-full absolute;
+}
+
+.loadingBody img{
+    @apply h-full;
+}
